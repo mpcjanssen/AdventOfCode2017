@@ -2,16 +2,16 @@ tests
 testDay2Part1Solve
 	| result |
 	" Given result "
-	result := Day2Part1
-		solve:
+	result := Day2
+		solvePart1:
 			'5 9 2 8
 9 4 7 3
 3 8 6 5'.
 	self should: result = 18.
 
 	" Calculated result "
-	result := Day2Part1
-		solve:
+	result := Day2
+		solvePart1:
 			'1208 412 743 57 1097 53 71 1029 719 133 258 69 1104 373 367 365
 4011 4316 1755 4992 228 240 3333 208 247 3319 4555 717 1483 4608 1387 3542
 675 134 106 115 204 437 1035 1142 195 1115 569 140 1133 190 701 1016

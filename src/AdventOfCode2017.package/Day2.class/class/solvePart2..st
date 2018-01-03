@@ -1,5 +1,5 @@
 as yet unclassified
-solve: anInput
+solvePart2: anInput
 	| sheet |
 	sheet := SpreadSheet
 		fromNumericalInput: anInput.
@@ -9,5 +9,3 @@ solve: anInput
 	sheet mapRows: [ :row | row collect: [ :pair | pair first / pair last ] ].
    sheet mapRows: [ :row | (row select: [ :num | num isInteger  ]) first ].
 	^ sheet sum.
-
-	
