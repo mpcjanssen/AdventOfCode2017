@@ -1,3 +1,3 @@
-as yet unclassified
+private
 data: aCollection 
 	data := aCollection
